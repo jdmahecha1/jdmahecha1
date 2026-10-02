@@ -4,7 +4,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,55:1e3a8a,100:3ecf8e&height=210&section=header&text=toriikarii&fontSize=58&fontColor=ffffff&fontAlignY=36&desc=Ingenier%C3%ADa%20de%20Sistemas%20%C2%B7%20Bases%20de%20datos%20%C2%B7%20IA%20aplicada&descAlignY=60&descSize=18&animation=fadeIn" width="100%" alt="banner"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=3ECF8E&center=true&vCenter=true&width=640&lines=Dise%C3%B1o+bases+de+datos+en+Supabase+%2B+PostgreSQL;Construyo+agentes+de+IA+con+n8n;Automatizo+procesos+de+negocio+reales;Actualmente%3A+IDEA+IA+%F0%9F%A4%96" alt="typing"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=3ECF8E&center=true&vCenter=true&width=640&lines=Dise%C3%B1o+bases+de+datos+en+Supabase+%2B+PostgreSQL;Construyo+agentes+de+IA+con+n8n;Automatizo+procesos+de+negocio+reales;Estudiante+de+Ingenier%C3%ADa+de+Sistemas" alt="typing"/>
 </a>
 
 <p>
@@ -17,51 +17,33 @@
 
 ---
 
-## 👨‍💻 Sobre mí
+## Sobre mí
 
 Estudiante de **Ingeniería de Sistemas** en la Universidad Santo Tomás (Tunja). Me gusta convertir problemas de negocio en sistemas que funcionan: modelo los datos, los protejo y les pongo una capa de IA encima.
 
-- 🗄️ Diseño **bases de datos relacionales** en Supabase / PostgreSQL: modelado, políticas **RLS**, *triggers* y autenticación con **Google OAuth**.
-- 🤖 Construyo **agentes de IA** y flujos de automatización en **n8n**.
-- 🌐 Empecé por el **desarrollo web** (HTML, CSS y JavaScript) y de ahí salté al backend.
-- 🧠 Trabajo con **IA como herramienta de desarrollo** (Claude + MCP) para diseñar, documentar y depurar más rápido.
-- 🎯 Abierto a **prácticas** y proyectos **freelance** de bases de datos, backend o automatización con IA.
+- Diseño **bases de datos relacionales** en Supabase / PostgreSQL.
+- Construyo **agentes de IA** y flujos de automatización en **n8n**.
+- Empecé por el **desarrollo web** (HTML, CSS y JavaScript) y de ahí salté al backend.
+- Trabajo con **IA como herramienta de desarrollo** (Claude + MCP) para diseñar, documentar y depurar más rápido.
+- Abierto a **prácticas** y proyectos **freelance** de bases de datos, backend o automatización.
 
 ---
 
-## 🚀 Proyecto destacado · IDEA IA
+## Supabase
 
-> Agente de IA para **IDEAPRO S.A.S.**, consultora que asesora a empresarios colombianos en **contratación pública y licitaciones** (SECOP, RUP, Colombia Compra Eficiente).
+Lo que he trabajado en proyectos reales con Supabase:
 
-**El problema:** cada cliente llega con un nivel de experiencia distinto y necesita un servicio distinto.
-**La solución:** un agente que conversa con el cliente, **diagnostica su nivel de madurez** y le recomienda el servicio adecuado, recordando el contexto entre conversaciones.
-
-| | |
+| Área | Qué hago |
 |---|---|
-| 🧩 **Base de datos** | 14 tablas en PostgreSQL (Supabase) con **RLS habilitado en todas** |
-| 🔐 **Autenticación** | Login con Google; un *trigger* sobre `auth.users` crea el perfil y la configuración del agente en el primer inicio de sesión |
-| 🧠 **Memoria** | Memoria de largo plazo **por usuario** y configuración del agente individual, no global |
-| 📊 **Diagnóstico** | Niveles de madurez, preguntas, sesiones y respuestas → recomendación de servicio |
-| ⚙️ **Orquestación** | Nodo *AI Agent* en **n8n** conectado a la base de datos |
-
-```mermaid
-flowchart LR
-    U([👤 Cliente]) -->|Google OAuth| AUTH[Supabase Auth]
-    AUTH -->|trigger| PROV[(profiles<br/>user_ai_config)]
-    U -->|chat| AG{{🤖 IDEA IA<br/>n8n · AI Agent}}
-    AG <-->|lee / escribe| DB[(PostgreSQL<br/>14 tablas · RLS)]
-    AG --> DIAG[Diagnóstico de<br/>madurez]
-    DIAG --> REC[Recomendación<br/>de servicio]
-    REC --> S1[Semillero]
-    REC --> S2[Auditoría de pliegos]
-    REC --> S3[Consorcios / alta complejidad]
-```
-
-<sub>Stack: Supabase · PostgreSQL · SQL · n8n · Google OAuth</sub>
+| **Modelado** | Esquemas relacionales en PostgreSQL con más de una decena de tablas relacionadas |
+| **Seguridad** | Políticas **Row Level Security (RLS)** en todas las tablas |
+| **Autenticación** | Supabase Auth con **Google OAuth** (configuración en Google Cloud Console) |
+| **Automatización** | *Triggers* sobre `auth.users` que crean perfil y configuración al primer inicio de sesión |
+| **Integración** | Base de datos conectada a agentes de IA en n8n y gestionada vía MCP |
 
 ---
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 **Datos & Backend**<br/>
 <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white"/>
@@ -85,7 +67,7 @@ flowchart LR
 
 ---
 
-## 📂 Otros proyectos
+## Proyectos
 
 | Proyecto | Descripción | Stack |
 |---|---|---|
@@ -93,17 +75,7 @@ flowchart LR
 
 ---
 
-## 📈 En qué estoy ahora
-
-```yaml
-construyendo: IDEA IA — memoria de largo plazo, seguimientos y registro de eventos del agente
-documentando: el diseño de la base de datos de IDEA PRO y el porqué de cada decisión
-estudiando:   Ingeniería de Sistemas @ USTA Tunja (álgebra lineal, fundamentos)
-```
-
----
-
-## 📫 Contacto
+## Contacto
 
 <p>
   <a href="https://github.com/jdmahecha1"><img src="https://img.shields.io/badge/GitHub-jdmahecha1-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
