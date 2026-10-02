@@ -23,7 +23,7 @@ Estudiante de **Ingeniería de Sistemas** en la Universidad Santo Tomás (Tunja)
 
 - Diseño **bases de datos relacionales** en Supabase / PostgreSQL.
 - Construyo **agentes de IA** y flujos de automatización en **n8n**.
-- Empecé por el **desarrollo web** (HTML, CSS y JavaScript) y de ahí salté al backend.
+- Desarrollo **aplicaciones web completas**: frontend en **Angular** y backend en **PHP + MySQL**.
 - Trabajo con **IA como herramienta de desarrollo** (Claude + MCP) para diseñar, documentar y depurar más rápido.
 - Abierto a **prácticas** y proyectos **freelance** de bases de datos, backend o automatización.
 
@@ -48,6 +48,8 @@ Lo que he trabajado en proyectos reales con Supabase:
 **Datos & Backend**<br/>
 <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white"/>
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
 <img src="https://img.shields.io/badge/SQL-0d1117?style=for-the-badge&logo=databricks&logoColor=white"/>
 
 **IA & Automatización**<br/>
@@ -55,7 +57,9 @@ Lo que he trabajado en proyectos reales con Supabase:
 <img src="https://img.shields.io/badge/AI%20Agents-8B5CF6?style=for-the-badge&logo=probot&logoColor=white"/>
 <img src="https://img.shields.io/badge/Claude%20%2B%20MCP-D97757?style=for-the-badge&logo=claude&logoColor=white"/>
 
-**Web**<br/>
+**Frontend**<br/>
+<img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
@@ -71,6 +75,7 @@ Lo que he trabajado en proyectos reales con Supabase:
 
 | Proyecto | Descripción | Stack |
 |---|---|---|
+| [**CAMAND · Sistema de ventas**](https://github.com/jdmahecha1/camand-sistema-ventas) | Aplicación web de gestión comercial con inicio de sesión y módulos CRUD de ventas, compras, productos, categorías, clientes, proveedores, usuarios, ciudades y departamentos. Backend con arquitectura modelo–controlador y script de base de datos MySQL. Proyecto SENA. | `Angular` `TypeScript` `PHP` `MySQL` `AdminLTE` |
 | [**Deportes GGM**](https://github.com/jdmahecha1/deportesggm.github.io) | Sitio web multipágina sobre la vida deportiva de un colegio: fútbol, logros, juegos, ubicación y contacto. | `HTML` `CSS` `JavaScript` |
 
 ---
