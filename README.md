@@ -1,10 +1,10 @@
 <!-- Perfil de GitHub · toriikarii (jdmahecha1) -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,55:1e3a8a,100:3ecf8e&height=210&section=header&text=toriikarii&fontSize=58&fontColor=ffffff&fontAlignY=36&desc=Ingenier%C3%ADa%20de%20Sistemas%20%C2%B7%20Bases%20de%20datos%20%C2%B7%20IA%20aplicada&descAlignY=60&descSize=18&animation=fadeIn" width="100%" alt="banner"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,55:1e3a8a,100:3ecf8e&height=210&section=header&text=toriikarii&fontSize=58&fontColor=ffffff&fontAlignY=36&desc=Ingenier%C3%ADa%20de%20Sistemas%20%C2%B7%20Full%20stack%20%C2%B7%20IA%20aplicada&descAlignY=60&descSize=18&animation=fadeIn" width="100%" alt="banner"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=3ECF8E&center=true&vCenter=true&width=640&lines=Dise%C3%B1o+bases+de+datos+en+Supabase+%2B+PostgreSQL;Construyo+agentes+de+IA+con+n8n;Automatizo+procesos+de+negocio+reales;Estudiante+de+Ingenier%C3%ADa+de+Sistemas" alt="typing"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=3ECF8E&center=true&vCenter=true&width=680&lines=Apps+web+con+Next.js%2C+React+y+Supabase;Agentes+de+IA+con+Claude+y+n8n;Herramientas+en+Python+publicadas+en+PyPI;Seguridad%3A+RLS%2C+validaci%C3%B3n+y+pruebas;Estudiante+de+Ingenier%C3%ADa+de+Sistemas" alt="typing"/>
 </a>
 
 <p>
@@ -19,64 +19,65 @@
 
 ## Sobre mí
 
-Estudiante de **Ingeniería de Sistemas** en la Universidad Santo Tomás (Tunja). Me gusta convertir problemas de negocio en sistemas que funcionan: modelo los datos, los protejo y les pongo una capa de IA encima.
+Estudiante de **Ingeniería de Sistemas** en la Universidad Santo Tomás (Tunja). Me gusta convertir problemas reales en sistemas que funcionan, se pueden probar y no se rompen con el primer usuario malicioso.
 
-- Diseño **bases de datos relacionales** en Supabase / PostgreSQL.
-- Construyo **agentes de IA** y flujos de automatización en **n8n**.
-- Desarrollo **aplicaciones web completas**: frontend en **Angular** y backend en **PHP + MySQL**.
-- Trabajo con **IA como herramienta de desarrollo** (Claude + MCP) para diseñar, documentar y depurar más rápido.
-- Abierto a **prácticas** y proyectos **freelance** de bases de datos, backend o automatización.
+- Construyo **aplicaciones web completas** con **Next.js / React + TypeScript** sobre **Supabase / PostgreSQL**.
+- Diseño bases de datos **seguras por defecto**: Row Level Security, funciones `SECURITY DEFINER`, restricciones que evitan reservas dobles, Edge Functions como árbitro del servidor.
+- Integro **IA en productos**: agentes con **Claude (tool use)** y flujos en **n8n**, con humano en el ciclo y límites de costo.
+- Escribo **herramientas en Python** y las publico en **PyPI** con CI y Trusted Publishing.
+- Me tomo en serio las **pruebas**: pytest, Vitest, pruebas basadas en propiedades (Hypothesis, fast-check) y CI en Windows, macOS y Linux.
+- Uso **IA como herramienta de desarrollo** (Claude Code + MCP) para diseñar, revisar y probar más rápido. El código lo entiendo, lo pruebo y lo defiendo.
 
 ---
 
-## Supabase
+## Proyectos destacados
 
-Lo que he trabajado en proyectos reales con Supabase:
-
-| Área | Qué hago |
-|---|---|
-| **Modelado** | Esquemas relacionales en PostgreSQL con más de una decena de tablas relacionadas |
-| **Seguridad** | Políticas **Row Level Security (RLS)** en todas las tablas |
-| **Autenticación** | Supabase Auth con **Google OAuth** (configuración en Google Cloud Console) |
-| **Automatización** | *Triggers* sobre `auth.users` que crean perfil y configuración al primer inicio de sesión |
-| **Integración** | Base de datos conectada a agentes de IA en n8n y gestionada vía MCP |
+| Proyecto | Qué es | Stack |
+|---|---|---|
+| [**Parqués online**](https://github.com/jdmahecha1/parques) · [▶ jugar](https://jdmahecha1.github.io/parques/) | El parqués colombiano en el navegador: contra bots o en línea con código de sala. Un solo motor de reglas puro arbitra el cliente y el servidor; los dados se tiran en el servidor y la base de datos queda cerrada al público. ~350 pruebas. | `React` `TypeScript` `Supabase Edge Functions` `Realtime` `fast-check` |
+| [**Turnos**](https://github.com/jdmahecha1/turnos) · [▶ demo](https://turnos-delta-six.vercel.app) | Reservas en línea para barberías y salones. La base de datos impide reservas dobles y las políticas RLS están probadas. | `Next.js 16` `TypeScript` `Supabase` `PostgreSQL` `Vercel` |
+| [**turnos-bot**](https://github.com/jdmahecha1/turnos-bot) | Asistente de Telegram que agenda citas en español con Claude y *tool use*. El modelo solo propone; la reserva exige confirmación humana. Incluye límites de costo y abuso. | `Python` `Claude API` `Telegram` `Docker` `pytest` |
+| [**ordena**](https://github.com/jdmahecha1/ordena) · [PyPI](https://pypi.org/project/ordena-cli/) | CLI que ordena tu carpeta de Descargas sin riesgos: simulacro por defecto, nunca sobrescribe y cada ejecución se puede deshacer. `pip install ordena-cli` | `Python` `Hypothesis` `GitHub Actions` `PyPI` |
+| [**VozClave**](https://github.com/jdmahecha1/vozclave) | Comandos de voz sin conexión para el escritorio que solo obedecen tu voz (verificación de hablante). | `Python` `Vosk` `SpeechBrain` |
+| [**CAMAND · Sistema de ventas**](https://github.com/jdmahecha1/camand-sistema-ventas) | Gestión comercial con login y módulos CRUD (ventas, compras, productos, clientes…). Proyecto SENA. | `Angular` `PHP` `MySQL` |
 
 ---
 
 ## Tecnologías
 
+**Lenguajes**<br/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/SQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
+
+**Frontend**<br/>
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
+<img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+<img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white"/>
+
 **Datos & Backend**<br/>
 <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white"/>
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Deno-000000?style=for-the-badge&logo=deno&logoColor=white"/>
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
-<img src="https://img.shields.io/badge/SQL-0d1117?style=for-the-badge&logo=databricks&logoColor=white"/>
 
 **IA & Automatización**<br/>
-<img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white"/>
+<img src="https://img.shields.io/badge/Claude%20API-D97757?style=for-the-badge&logo=claude&logoColor=white"/>
 <img src="https://img.shields.io/badge/AI%20Agents-8B5CF6?style=for-the-badge&logo=probot&logoColor=white"/>
-<img src="https://img.shields.io/badge/Claude%20%2B%20MCP-D97757?style=for-the-badge&logo=claude&logoColor=white"/>
+<img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white"/>
+<img src="https://img.shields.io/badge/Telegram%20Bots-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/>
 
-**Frontend**<br/>
-<img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white"/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-
-**Herramientas**<br/>
+**Calidad & DevOps**<br/>
+<img src="https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-<img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white"/>
-
----
-
-## Proyectos
-
-| Proyecto | Descripción | Stack |
-|---|---|---|
-| [**CAMAND · Sistema de ventas**](https://github.com/jdmahecha1/camand-sistema-ventas) | Aplicación web de gestión comercial con inicio de sesión y módulos CRUD de ventas, compras, productos, categorías, clientes, proveedores, usuarios, ciudades y departamentos. Backend con arquitectura modelo–controlador y script de base de datos MySQL. Proyecto SENA. | `Angular` `TypeScript` `PHP` `MySQL` `AdminLTE` |
-| [**Deportes GGM**](https://github.com/jdmahecha1/deportesggm.github.io) | Sitio web multipágina sobre la vida deportiva de un colegio: fútbol, logros, juegos, ubicación y contacto. | `HTML` `CSS` `JavaScript` |
 
 ---
 
