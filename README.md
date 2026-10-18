@@ -8,8 +8,8 @@
 </a>
 
 <p>
-  <img src="https://img.shields.io/badge/Tunja%2C%20Colombia-0d1117?style=flat-square&logo=googlemaps&logoColor=3ECF8E" alt="ubicación"/>
-  <img src="https://img.shields.io/badge/Universidad%20Santo%20Tom%C3%A1s-0d1117?style=flat-square&logo=bookstack&logoColor=3ECF8E" alt="universidad"/>
+  <img src="https://img.shields.io/badge/Estudiante%20universitario-0d1117?style=flat-square&logo=bookstack&logoColor=3ECF8E" alt="estudiante universitario"/>
+  <img src="https://img.shields.io/badge/SENA%20%C2%B7%20ADSO-0d1117?style=flat-square&logo=codeigniter&logoColor=3ECF8E" alt="SENA ADSO"/>
   <img src="https://img.shields.io/badge/Abierto%20a%20pr%C3%A1cticas%20y%20freelance-3ECF8E?style=flat-square&logo=handshake&logoColor=0d1117" alt="disponible"/>
 </p>
 
@@ -19,7 +19,7 @@
 
 ## Sobre mí
 
-Estudiante de **Ingeniería de Sistemas** en la Universidad Santo Tomás (Tunja). Me gusta convertir problemas reales en sistemas que funcionan, se pueden probar y no se rompen con el primer usuario malicioso.
+Estudiante universitario de **Ingeniería de Sistemas** y aprendiz del **SENA** en **Análisis y Desarrollo de Software (ADSO)**. Me gusta convertir problemas reales en sistemas que funcionan, se pueden probar y no se rompen con el primer usuario malicioso.
 
 - Construyo **aplicaciones web completas** con **Next.js / React + TypeScript** sobre **Supabase / PostgreSQL**.
 - Diseño bases de datos **seguras por defecto**: Row Level Security, funciones `SECURITY DEFINER`, restricciones que evitan reservas dobles, Edge Functions como árbitro del servidor.
