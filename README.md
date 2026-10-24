@@ -34,6 +34,7 @@ Estudiante universitario de **Ingeniería de Sistemas** y aprendiz del **SENA** 
 
 | Proyecto | Qué es | Stack |
 |---|---|---|
+| [**Crónicas**](https://github.com/jdmahecha1/cronicas) · [▶ explorar](https://jdmahecha1.github.io/cronicas/) | La historia de 6 sagas de videojuegos (Zelda, The Witcher, Red Dead…) sin spoilers: marcas hasta qué capítulo jugaste y el escudo oculta todo lo posterior. Línea de tiempo, personajes y mapa de relaciones; búsqueda estática y CSP con hashes. 69 pruebas. | `Astro` `React` `TypeScript` `Zod` `d3-force` `Playwright` |
 | [**Parqués online**](https://github.com/jdmahecha1/parques) · [▶ jugar](https://jdmahecha1.github.io/parques/) | El parqués colombiano en el navegador: contra bots o en línea con código de sala. Un solo motor de reglas puro arbitra el cliente y el servidor; los dados se tiran en el servidor y la base de datos queda cerrada al público. ~350 pruebas. | `React` `TypeScript` `Supabase Edge Functions` `Realtime` `fast-check` |
 | [**Turnos**](https://github.com/jdmahecha1/turnos) · [▶ demo](https://turnos-delta-six.vercel.app) | Reservas en línea para barberías y salones. La base de datos impide reservas dobles y las políticas RLS están probadas. | `Next.js 16` `TypeScript` `Supabase` `PostgreSQL` `Vercel` |
 | [**turnos-bot**](https://github.com/jdmahecha1/turnos-bot) | Asistente de Telegram que agenda citas en español con Claude y *tool use*. El modelo solo propone; la reserva exige confirmación humana. Incluye límites de costo y abuso. | `Python` `Claude API` `Telegram` `Docker` `pytest` |
@@ -55,6 +56,7 @@ Estudiante universitario de **Ingeniería de Sistemas** y aprendiz del **SENA** 
 **Frontend**<br/>
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
 <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white"/>
 <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
 <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
 <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white"/>
