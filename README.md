@@ -32,10 +32,10 @@
 Juego de acción por oleadas en pixel art y fantasía oscura, hecho desde cero. Eres un cazador con un farol cuyo aceite se agota, en un bosque maldito durante 10 minutos de noche.
 
 - **Ataque manual** con el clic, hacia donde apuntas, o **ataque automático** si lo prefieres. Funciona en PC y en el celular (joystick táctil).
-- **5 armas, 8 mejoras pasivas** y **8 tipos de enemigos**, con un minijefe y un jefe final.
+- **5 personajes, 5 armas hasta nivel 8, 9 mejoras pasivas** y **8 tipos de enemigos**, con un minijefe y un jefe final.
 - **El mercader** aparece en treguas para vender reliquias con las monedas que sueltan los enemigos.
 - **El Altar**: progreso entre partidas con las brasas que ganas.
-- **Todo el arte y el sonido están hechos en código**: sprites definidos píxel a píxel en TypeScript y audio sintetizado con Web Audio, sin archivos de arte ni de música.
+- **Todo el arte está hecho en código**: sprites definidos píxel a píxel en TypeScript, sin archivos de imagen. La música y algunos efectos son grabaciones libres (CC0) y el resto del sonido se sintetiza con Web Audio.
 - Lógica pura con pruebas unitarias, pruebas de punta a punta en escritorio y celular, y un bot que juega solo para equilibrar la dificultad. CI/CD con GitHub Actions.
 
 ---
@@ -66,7 +66,7 @@ Estudiante universitario de **Ingeniería de Sistemas** y aprendiz del **SENA** 
 - Construyo **aplicaciones web completas** con **Next.js / React + TypeScript** sobre **Supabase / PostgreSQL**.
 - Diseño bases de datos **seguras por defecto**: Row Level Security, funciones `SECURITY DEFINER`, restricciones que evitan reservas dobles, Edge Functions como árbitro del servidor.
 - Integro **IA en productos**: agentes con **Claude (tool use)** y flujos en **n8n**, con humano en el ciclo y límites de costo.
-- Hago **juegos para el navegador** con **Phaser + TypeScript**: arte pixel art, sonido sintetizado y lógica probada.
+- Hago **juegos para el navegador** con **Phaser + TypeScript**: arte pixel art hecho en código, sonido con Web Audio y lógica probada.
 - Escribo **herramientas en Python** y las publico en **PyPI** con CI y Trusted Publishing.
 - Me tomo en serio las **pruebas**: pytest, Vitest, pruebas basadas en propiedades (Hypothesis, fast-check) y CI en Windows, macOS y Linux.
 - Uso **IA como herramienta de desarrollo** (Claude Code + MCP) para diseñar, revisar y probar más rápido. El código lo entiendo, lo pruebo y lo defiendo.
@@ -83,7 +83,7 @@ Estudiante universitario de **Ingeniería de Sistemas** y aprendiz del **SENA** 
 
 | Proyecto | Qué es | Stack |
 |---|---|---|
-| [**Umbral**](https://github.com/jdmahecha1/umbral) · [▶ jugar](https://jdmahecha1.github.io/umbral/) | Juego de acción por oleadas en pixel art: sobrevive la noche en un bosque maldito con un farol que se apaga. Armas, mercader, progreso entre partidas y controles para PC y celular. Arte y sonido generados en código. | `Phaser 4` `TypeScript` `Vite` `Web Audio` `Vitest` `Playwright` |
+| [**Umbral**](https://github.com/jdmahecha1/umbral) · [▶ jugar](https://jdmahecha1.github.io/umbral/) | Juego de acción por oleadas en pixel art: sobrevive la noche en un bosque maldito con un farol que se apaga. Armas, mercader, progreso entre partidas y controles para PC y celular. Arte generado en código y esquiva al estilo roguelite. | `Phaser 4` `TypeScript` `Vite` `Web Audio` `Vitest` `Playwright` |
 | [**Arcos**](https://github.com/jdmahecha1/arcos) · [▶ explorar](https://jdmahecha1.github.io/arcos/) | La historia de 5 animes (Kimetsu no Yaiba, Attack on Titan, Jujutsu Kaisen…) sin spoilers: marcas el último arco que viste y lo demás queda oculto, incluso lo que solo está en el manga. Línea de tiempo, personajes y mapa de relaciones, con modo oscuro. | `Astro` `React` `TypeScript` `Zod` `d3-force` `Pagefind` |
 | [**Crónicas**](https://github.com/jdmahecha1/cronicas) · [▶ explorar](https://jdmahecha1.github.io/cronicas/) | La historia de 6 sagas de videojuegos (Zelda, The Witcher, Red Dead…) sin spoilers: marcas hasta qué capítulo jugaste y el escudo oculta todo lo posterior. Línea de tiempo, personajes y mapa de relaciones; búsqueda estática, CSP con hashes y pruebas en navegador real. | `Astro` `React` `TypeScript` `Zod` `d3-force` `Playwright` |
 | [**Parqués online**](https://github.com/jdmahecha1/parques) · [▶ jugar](https://jdmahecha1.github.io/parques/) | El parqués colombiano en el navegador: contra bots o en línea con código de sala. Un solo motor de reglas puro arbitra el cliente y el servidor; los dados se tiran en el servidor y la base de datos queda cerrada al público. ~350 pruebas. | `React` `TypeScript` `Supabase Edge Functions` `Realtime` `fast-check` |
