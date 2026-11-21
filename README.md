@@ -40,6 +40,25 @@ Juego de acción por oleadas en pixel art y fantasía oscura, hecho desde cero. 
 
 ---
 
+## Más proyectos para probar
+
+<table>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://jdmahecha1.github.io/parques/"><img src="assets/parques.gif" width="100%" alt="Partida de parqués entre cuatro bots"/></a>
+<br/><b><a href="https://jdmahecha1.github.io/parques/">Parqués online</a></b><br/>
+<sub>El juego de mesa colombiano contra bots o en línea con amigos. Un motor de reglas puro arbitra cliente y servidor.</sub>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="https://jdmahecha1.github.io/cronicas/"><img src="assets/cronicas.gif" width="100%" alt="Marcando el progreso en Crónicas y viendo la línea de tiempo sin spoilers"/></a>
+<br/><b><a href="https://jdmahecha1.github.io/cronicas/">Crónicas</a></b><br/>
+<sub>La historia de 6 sagas de videojuegos sin spoilers: marcas hasta dónde jugaste y el resto queda en la niebla.</sub>
+</td>
+</tr>
+</table>
+
+---
+
 ## Sobre mí
 
 Estudiante universitario de **Ingeniería de Sistemas** y aprendiz del **SENA** en **Análisis y Desarrollo de Software (ADSO)**. Me gusta convertir problemas reales en sistemas que funcionan, se pueden probar y no se rompen con el primer usuario malicioso.
@@ -51,6 +70,12 @@ Estudiante universitario de **Ingeniería de Sistemas** y aprendiz del **SENA** 
 - Escribo **herramientas en Python** y las publico en **PyPI** con CI y Trusted Publishing.
 - Me tomo en serio las **pruebas**: pytest, Vitest, pruebas basadas en propiedades (Hypothesis, fast-check) y CI en Windows, macOS y Linux.
 - Uso **IA como herramienta de desarrollo** (Claude Code + MCP) para diseñar, revisar y probar más rápido. El código lo entiendo, lo pruebo y lo defiendo.
+
+### En qué ando ahora
+
+- Puliendo **Umbral**: equilibrio de la dificultad y mejoras nuevas, ahora con un amigo que se suma como colaborador del repo.
+- Avanzando en la formación de **ADSO** en el SENA.
+- Buscando **prácticas o proyectos freelance** donde aportar con TypeScript, Python y Supabase.
 
 ---
 
@@ -108,6 +133,23 @@ Estudiante universitario de **Ingeniería de Sistemas** y aprendiz del **SENA** 
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
 <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+
+---
+
+## Estadísticas
+
+<p align="center">
+  <img src="https://github.com/jdmahecha1/jdmahecha1/raw/output/lenguajes.svg" width="49%" alt="Lenguajes más usados"/>
+  <img src="https://github.com/jdmahecha1/jdmahecha1/raw/output/actividad.svg" width="49%" alt="Actividad del último año"/>
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jdmahecha1/jdmahecha1/raw/output/culebrita-oscura.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/jdmahecha1/jdmahecha1/raw/output/culebrita-clara.svg"/>
+  <img src="https://github.com/jdmahecha1/jdmahecha1/raw/output/culebrita-oscura.svg" width="100%" alt="Culebrita que se come el gráfico de contribuciones"/>
+</picture>
+
+<sub>Se actualizan solas cada día con GitHub Actions.</sub>
 
 ---
 
