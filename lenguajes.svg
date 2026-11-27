@@ -1,0 +1,11 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='420' height='176' viewBox='0 0 420 176' role='img'>
+<rect x='0.5' y='0.5' width='419' height='175' rx='10' fill='#0d1117' stroke='#30363d'/>
+<text x='24' y='36' font-family='Segoe UI, Ubuntu, Helvetica, Arial, sans-serif' font-size='16' font-weight='600' fill='#3ecf8e'>Lenguajes más usados</text>
+<clipPath id='c'><rect x='24' y='58' width='372' height='10' rx='5'/></clipPath><g clip-path='url(#c)'><rect x='24.0' y='58' width='193.8' height='10' fill='#3178c6'/><rect x='217.8' y='58' width='73.5' height='10' fill='#3572A5'/><rect x='291.3' y='58' width='25.7' height='10' fill='#663399'/><rect x='317.1' y='58' width='23.3' height='10' fill='#f1e05a'/><rect x='340.4' y='58' width='22.8' height='10' fill='#ff5a03'/><rect x='363.2' y='58' width='18.9' height='10' fill='#e34c26'/></g>
+<circle cx='29' cy='94' r='5' fill='#3178c6'/><text x='42' y='98' font-family='Segoe UI, Ubuntu, Helvetica, Arial, sans-serif' font-size='13' fill='#c9d1d9'>TypeScript <tspan fill='#8b949e'>52.1%</tspan></text>
+<circle cx='219' cy='94' r='5' fill='#3572A5'/><text x='232' y='98' font-family='Segoe UI, Ubuntu, Helvetica, Arial, sans-serif' font-size='13' fill='#c9d1d9'>Python <tspan fill='#8b949e'>19.8%</tspan></text>
+<circle cx='29' cy='120' r='5' fill='#663399'/><text x='42' y='124' font-family='Segoe UI, Ubuntu, Helvetica, Arial, sans-serif' font-size='13' fill='#c9d1d9'>CSS <tspan fill='#8b949e'>6.9%</tspan></text>
+<circle cx='219' cy='120' r='5' fill='#f1e05a'/><text x='232' y='124' font-family='Segoe UI, Ubuntu, Helvetica, Arial, sans-serif' font-size='13' fill='#c9d1d9'>JavaScript <tspan fill='#8b949e'>6.3%</tspan></text>
+<circle cx='29' cy='146' r='5' fill='#ff5a03'/><text x='42' y='150' font-family='Segoe UI, Ubuntu, Helvetica, Arial, sans-serif' font-size='13' fill='#c9d1d9'>Astro <tspan fill='#8b949e'>6.1%</tspan></text>
+<circle cx='219' cy='146' r='5' fill='#e34c26'/><text x='232' y='150' font-family='Segoe UI, Ubuntu, Helvetica, Arial, sans-serif' font-size='13' fill='#c9d1d9'>HTML <tspan fill='#8b949e'>5.1%</tspan></text>
+</svg>
