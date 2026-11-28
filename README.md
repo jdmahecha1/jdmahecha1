@@ -13,6 +13,8 @@
   <img src="https://img.shields.io/badge/Abierto%20a%20pr%C3%A1cticas%20y%20freelance-3ECF8E?style=flat-square&logo=handshake&logoColor=0d1117" alt="disponible"/>
 </p>
 
+<p><a href="https://jdmahecha1.github.io"><img src="https://img.shields.io/badge/Portafolio-jdmahecha1.github.io-047857?style=for-the-badge&logo=astro&logoColor=white" alt="Portafolio"/></a></p>
+
 </div>
 
 ---
@@ -156,6 +158,8 @@ Estudiante universitario de **Ingeniería de Sistemas** y aprendiz del **SENA** 
 ## Contacto
 
 <p>
+  <a href="https://jdmahecha1.github.io"><img src="https://img.shields.io/badge/Portafolio-jdmahecha1.github.io-047857?style=for-the-badge&logo=astro&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/juan-mahecha-4b4b80306"><img src="https://img.shields.io/badge/LinkedIn-Juan%20Mahecha-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="https://github.com/jdmahecha1"><img src="https://img.shields.io/badge/GitHub-jdmahecha1-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
   <a href="mailto:dm901919@gmail.com"><img src="https://img.shields.io/badge/Gmail-dm901919%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
